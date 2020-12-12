@@ -1,0 +1,167 @@
+body {
+    background: #cccccc;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+/**************** 
+
+
+    Kopfzeile
+
+
+****************/
+
+.kopf {
+    margin:  auto;
+    width: 400px
+}
+
+.kopf img {
+    width: 400px;
+    height: auto;
+}
+
+.navi {
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.navi li {
+    float: left;
+    border-radius: 20px;
+    margin: 4px;
+    background-color: antiquewhite
+    
+}
+
+.navi li:last-child {
+    margin-right: 4px;
+}
+
+
+.navi li a {
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-weight: bold;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 3px 20px;
+    text-decoration: none;
+}
+
+.navi li a:hover {
+    background-color: darkturquoise;
+    border-radius: 20px;
+}
+
+.navi .aktiv {
+  background-color: darkturquoise;
+    border-radius: 20px;
+}
+
+/**************** ENDE Kopfzeile ****************/
+
+
+
+/**************** Inhalt ****************/
+
+.inhalt {
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 500px;
+    
+}
+
+/*** Inhalt: Text ***/
+
+.text {
+    font-family: "Courier New", "Lucida Console", monospace;
+}
+
+.text h1 {
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.text hr {
+    margin-top: -25px
+}
+
+
+.text p {
+    font-size: 14px;
+}
+
+/*** ENDE Inhalt: Text ***/
+
+/**************** ENDE Inhalt ****************/
+
+
+/**************** Fußzeile ****************/
+
+.fuss {
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 5px;
+    
+}
+
+.fuss ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: aqua;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fuss li {
+    float: left;
+    border-radius: 20px;
+    margin: 4px;
+    
+}
+
+.fuss li:last-child {
+    margin-right: 4px;
+}
+
+
+.fuss li a {
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-weight: lighter;
+    font-size: 12px;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 0 2px;
+    text-decoration: none;
+}
+
+.fuss li a:hover {
+    background-color: darkturquoise;
+    border-radius: 20px;
+}
+
+.fuss .aktiv {
+    background-color: darkturquoise;
+    border-radius: 20px;
+}
